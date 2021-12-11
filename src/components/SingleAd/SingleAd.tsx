@@ -21,7 +21,7 @@ const SingleAd = ({ num, handleUniqeNum }:{num:number, handleUniqeNum:Function})
                     {imageURL ? 
                         <img className='img-fluid' src={imageURL} alt="img" /> 
                     : 
-                        <p className='m-0 text-center'>Loading Ad...</p>
+                        <p className='m-0 text-center text-white'>Loading Ad...</p>
                     }
                 </div>
             </div>

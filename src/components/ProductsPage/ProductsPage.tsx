@@ -7,7 +7,7 @@ import SingleAd from '../SingleAd/SingleAd';
 
 const ProductsPage = () => {
     
-    const arrOfAdsNums = [1,2,3,4,5,6,7,8,9,10];
+    const arrOfAdsNums = Array.from(Array(100).keys())
 
     const [productsData, setProductsData] = useState<IProduct[]>([])
     const [adNum, setAdNum] = useState<number>(0)
