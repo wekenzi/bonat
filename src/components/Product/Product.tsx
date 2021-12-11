@@ -26,7 +26,7 @@ const Product = ({ date, face, id, price, size }:IProduct) => {
     },[])
 
     return (
-        <div className="col-md-3 col-sm-4 col-xs-2">
+        <div className="col-md-4 col-sm-6">
             <div className="card m-3">
                 <div className="card-body">
                     <p className="face text-center" style={{fontSize:`${size}px`}}>{ face }</p>
